@@ -1,15 +1,3 @@
-# 🚀 Welcome to your new awesome project!
+# WebNBT
 
-This project has been created using **webpack-cli**, you can now run
-
-```
-npm run build
-```
-
-or
-
-```
-yarn build
-```
-
-to bundle your application
+Needed an NBT editor, but I'm not paying $5 a month, just going to write my own :)
