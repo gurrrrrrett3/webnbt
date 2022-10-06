@@ -1,0 +1,23 @@
+{
+  "devDependencies": {
+    "@webpack-cli/generators": "^2.5.0",
+    "buffer": "github:feross/buffer",
+    "html-webpack-plugin": "^5.5.0",
+    "ts-loader": "^9.4.1",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "version": "1.0.0",
+  "description": "My webpack project",
+  "name": "my-webpack-project",
+  "scripts": {
+    "build": "webpack --mode=production --node-env=production",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production --node-env=production",
+    "watch": "webpack --watch",
+    "serve": "webpack serve"
+  },
+  "dependencies": {
+    "workbox-webpack-plugin": "^6.5.4"
+  }
+}
